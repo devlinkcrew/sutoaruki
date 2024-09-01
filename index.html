@@ -7,63 +7,84 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="header">
-        <div class="container ">
-            <img src="https://placehold.jp/150x150.png" alt="Logo" class="logo">
-            <nav class="nav">
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">SERVICE</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
-                <div class="contact">
-                    <a href="tel:0120-117-440">0120-117-440</a>
-                </div>
-            </nav>
+<header class="header">
+  <div class="container header-container">
+    <a href="#"><img src="https://placehold.jp/150x150.png" alt="Logo" class="logo"></a>
+    <nav class="nav">
+      <ul>
+        <li><a href="#">使い方</a></li>
+        <li><a href="#">企業様へ</a></li>
+        <li><a href="#">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="hero">
+    <div class="container">
+      <h1>お近くのお店、ホテルを探しましょう</h1>
+      <a href="#">
+        <button class="btn">アプリはこちら</button>
+      </a>
+    </div>
+  </section>
+  
+  <section class="solutions">
+    <div class="container">
+      <h2>すとあるきが解決します！</h2>
+      <div class="solutions-container">
+        <div class="solution">
+          <h3>近くのお店を探しましょう</h3>
+          <img src="https://placehold.jp/150x150.png" alt="Solution 1">
         </div>
-    </header>
-    <main>
-        <section class="hero">
-            <div class="container">
-                <h1>お店のアプリで誰でもカンタン集客UP!</h1>
-                <img src="https://placehold.jp/150x150.png" alt="Hero Image">
-                <button class="btn">資料を請求する</button>
-            </div>
-        </section>
-        <section class="features">
-            <div class="container">
-                <h2>アプリリンクなら集客UPの方程式</h2>
-                <div class="features-list">
-                    <div class="feature">
-                        <h3>プッシュ通知でクイック集客</h3>
-                        <img src="https://placehold.jp/150x150.png" alt="Feature 1">
-                    </div>
-                    <div class="feature">
-                        <h3>クーポンでお得</h3>
-                        <img src="https://placehold.jp/150x150.png" alt="Feature 2">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="solutions">
-            <div class="container">
-                <h2>アプリリンクが解決します</h2>
-                <div class="solution">
-                    <h3>来店客を増やしたい！</h3>
-                    <img src="https://placehold.jp/150x150.png" alt="Solution 1">
-                </div>
-                <div class="solution">
-                    <h3>おトクな情報をスマホ画面に</h3>
-                    <img src="https://placehold.jp/150x150.png" alt="Solution 2">
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 Your Company. All rights reserved.</p>
+        <div class="solution">
+          <h3>おトクな情報をスマホ画面に</h3>
+          <img src="https://placehold.jp/150x150.png" alt="Solution 2">
         </div>
-    </footer>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>使い方</h2>
+    <p>aaaaaaaa</p>
+  </section>
+  <section>
+    <h2>企業様へ</h2>
+    <p>bbbbb</p>
+  </section>
+  <section>
+    <h2>お問い合わせ</h2>
+    <div class="Form">
+      <div class="Form-Item">
+        <p class="Form-Item-Label">
+          <span class="Form-Item-Label-Required">必須</span>会社名
+        </p>
+        <input type="text" class="Form-Item-Input" placeholder="例）株式会社令和">
+      </div>
+      <div class="Form-Item">
+        <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>氏名</p>
+        <input type="text" class="Form-Item-Input" placeholder="例）山田太郎">
+      </div>
+      <div class="Form-Item">
+        <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>電話番号</p>
+        <input type="text" class="Form-Item-Input" placeholder="例）000-0000-0000">
+      </div>
+      <div class="Form-Item">
+        <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>メールアドレス</p>
+        <input type="email" class="Form-Item-Input" placeholder="例）example@gmail.com">
+      </div>
+      <div class="Form-Item">
+        <p class="Form-Item-Label isMsg"><span class="Form-Item-Label-Required">必須</span>お問い合わせ内容</p>
+        <textarea class="Form-Item-Textarea"></textarea>
+      </div>
+      <input type="submit" class="Form-Btn" value="送信する">
+    </div>
+  </section>
+</main>
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
